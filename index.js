@@ -5,6 +5,11 @@ function adding(a,b) {
 let compare = adding(5,6);
 console.log(compare);
 
-let name = "Ramesh"
+let userName = "Ramesh"
 
-console.log(name);
+console.log(userName); 
+
+let indexEl = document.createElement("input");
+indexEl.type = "text";
+indexEl.textContent = userName.value;
+document.body.appendChild(indexEl)
